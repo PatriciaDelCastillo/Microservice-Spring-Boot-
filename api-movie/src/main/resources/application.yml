@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: api-movie
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/microservicedb
+    username: root
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+
